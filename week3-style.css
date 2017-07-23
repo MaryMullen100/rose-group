@@ -1,0 +1,159 @@
+/*This is a comment that explains part of our markup*/
+
+/*structural styles*/
+#page-wrapper{
+	background-color: #ecc8b8;
+	width: 80%;
+	margin: auto;
+}
+
+#main-content{
+	width:60%;
+	border-right: 2px solid darkolivegreen;
+}
+
+#sidebar-content{
+	width:40%;
+	
+}
+
+#main-content,#sidebar-content{
+	float:left;
+	padding: 0 1.5%;
+	border: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-top: 1px solid darkolivegreen;
+}
+
+header{
+	position:relative;
+}
+ v
+.column{
+	border-top: 1px solid darkolivegreen;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	
+}
+img{
+	width: 100%;
+}
+
+.small{
+	width: 30%;
+}
+
+.large{
+	width: 40%;
+}
+.clear{
+	clear: both;
+}
+
+.small-logo{
+	max-width: 80px;
+}
+
+.logo{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.small-green-border-right{
+	border-right: 1px solid darkolivegreen;
+}
+
+
+/*whitespace*/
+article, footer, header{
+	padding: 1%
+}
+
+
+/*figure*/
+figure{
+	width: 60%
+	margin: 2% auto 4% auto;
+	border-top: 2px solid darkolivegreen;
+	border-bottom: 2px solid darkolivegreen;
+	padding: 1.5%;
+}
+
+/*Nav styles*/
+nav>ul{
+	display:flex;
+	justify-content: flex-end;
+	
+	
+}
+
+nav>ul>li{
+	display:inline-flex;
+	background-color: indianred;
+	padding: 0.5% 4.5%;
+	margin: auto;
+	
+}
+
+nav>ul>li>a{
+	text-decoration: none;
+}
+
+
+nav>ul>li>a:link{
+	color: lightcyan;
+}
+
+
+nav>ul>li>a:visited{
+	color: turquoise;
+}
+
+nav>ul>li>a:hover{
+	color: darkolivegreen;
+}
+
+
+nav>ul>li>a:active{
+	color: yellow;
+}
+
+/*typography*/
+header>h1{
+	text-align: center;
+}
+ol>ol{
+	list-style-type:lower-roman;
+}
+
+/*bodystyle*/
+article{
+	background-color: #ffefdb;
+	margin: 1%;
+}
+
+h1{
+	color: darkolivegreen;
+}
+
+h2, h3{
+	color: indianred;
+}
+
+p{
+	color: black;
+}
+
+time{
+	color: darkolivegreen;
+	font-weight: bold;
+}
+
+figcaption{
+	color: darkolivegreen;
+}
